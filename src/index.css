@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #252a34;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+button {
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.auth {
+  background-color: white;
+  width: 30vw;
+  height: 40vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.auth p {
+  font-size: 18px;
+}
+
+.auth button {
+  background-color: #0288d1;
+  letter-spacing: 0.5px;
+}
+
+.room-container {
+  background-color: #fff;
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.room-container input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid orangered;
+}
+
+.btn {
+  width: 120px;
+}
+.enter {
+  background-color: rgb(5, 172, 5);
+}
+
+.out {
+  background-color: red;
+}
+
+.chat {
+  background-color: white;
+  width: 40vw;
+  height: 70vh;
+  min-width: 300px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.chat-info {
+  background-color: rgb(255, 94, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+  color: #fff;
+}
+
+.chat-info a {
+  background-color: beige;
+  text-decoration: none;
+  color: blue;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.message {
+  border: 1px solid #252a34;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.user-message {
+  align-self: flex-end;
+  margin-right: 20px;
+  background-color: #25d366;
+  color: white;
+  padding: 3px 15px;
+  border-radius: 8px 8px 0 8px;
+}
+
+.message-info {
+  font-weight: bold;
+}
+
+.messages {
+  margin-left: 20px;
+  background-color: #25d366;
+  color: white;
+  padding: 3px 15px;
+  border-radius: 8px 8px 8px 0;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  gap: 40px;
+}
+
+form input {
+  padding: 0 5px;
+  width: 70%;
+  border-radius: 10px;
+}
+
+form button {
+  background-color: #0288d1;
+  border-radius: 10px;
+}
