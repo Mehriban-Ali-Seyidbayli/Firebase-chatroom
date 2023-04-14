@@ -1,6 +1,6 @@
 # Chat Room
 
-## I've used Firebase for database.
+## I've used Firebase as a database.
 
 ### You can connect with people by choosing room.
 
